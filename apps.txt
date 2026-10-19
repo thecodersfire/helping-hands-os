@@ -4,7 +4,19 @@ org.gnome.Calendar
 org.mozilla.firefox
 com.opera.opera-gx
 
-# Three additional preinstalled purpose-specific applications
+# Three previously added purpose-specific applications
 org.audacityteam.Audacity
 com.github.johnfactotum.Foliate
 org.keepassxc.KeePassXC
+
+# Ten additional preinstalled purpose-specific applications
+org.zotero.Zotero
+org.gnome.clocks
+org.gnome.Contacts
+org.gnome.Papers
+org.gnome.SimpleScan
+com.calibre_ebook.calibre
+net.ankiweb.Anki
+org.gnome.TextEditor
+org.gnome.Calculator
+org.gnome.Maps
