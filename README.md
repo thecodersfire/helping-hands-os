@@ -24,3 +24,9 @@ The `helping-hands.svg` wallpaper is original. Helping Hands OS is an independen
 
 See [FEATURES.md](FEATURES.md) for three local tools included for volunteer coordination.
 
+
+The installer also includes three purpose-specific applications: **KeePassXC, VSCodium, GIMP**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **Audacity, Foliate, KeePassXC**. See [FEATURES.md](FEATURES.md).
+
+The installer also includes three purpose-specific applications: **Audacity, Foliate, KeePassXC**. See [FEATURES.md](FEATURES.md).
