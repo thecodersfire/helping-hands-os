@@ -54,3 +54,4 @@ org.kde.kcalc
 org.kde.kalarm
 org.gnome.meld
 org.kde.konsole
+org.blender.Blender
