@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ask(){ local answer; read -r -p "$1 [y/N] " answer; [[ "$answer" =~ ^[Yy]([Ee][Ss])?$ ]]; }
+echo 'helping-hands-os readiness checklist'
+ask 'Is the correct project selected?' || true
+ask 'Are important files backed up?' || true
+ask 'Is the next action clear?' || true
+echo 'Checklist complete. Answers were not saved or transmitted.'

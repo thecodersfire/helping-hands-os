@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p "$HOME/Documents/helping-hands-os-session-plans"
+file="$HOME/Documents/helping-hands-os-session-plans/plan-$(date +%Y%m%d-%H%M%S).md"
+{
+ printf '# helping-hands-os session plan\n\n'
+ printf 'Created: %s\n\n' "$(date -Is)"
+ printf 'Purpose: volunteer coordination\n\n## Prompts\n'
+ printf '%s\n' '- What outcome are you aiming for?' '- What is the next small action?' '- What resources or constraints matter?'
+ printf '\n## Notes\n'
+} > "$file"
+nano "$file"
+printf 'Saved locally: %s\n' "$file"
